@@ -26,6 +26,7 @@ $ python updatable.py
 
 ```
 $ pip3 install -r requirement.txt
+$ sudo chmod +x updatable.py
 $ python3 updatable.py
 ```
 <img src="https://raw.githubusercontent.com/Roxcoder/updatable/master/Capture.png" alte=Capture>
