@@ -7,7 +7,7 @@ print("""
      #    # #    # #    # #    #   #   #    # #####  #      #####  
      #    # #####  #    # ######   #   ###### #    # #      #      
      #    # #      #    # #    #   #   #    # #    # #      #      
-      ####  #      #####  #    #   #   #    # #####  ###### ######  @Roxcoder \n """)
+      ####  #      #####  #    #   #   #    # #####  ###### ######  @RoxCoderSA \n """)
 
 
       
@@ -69,7 +69,7 @@ def Debian():
 	os.system('sudo apt dist-upgrade -y')# Upgrade all system and programes 
 	os.system('sudo apt autoremove -y')# Remove all package deos not needs 
 	print("All update completed\n")# Printing massage after upgrading 
-	print (colorama.Fore.GREEN + "Code By:" + colorama.Fore.WHITE + " Roxcoder")# Printing massage with call colors library
+	print (colorama.Fore.GREEN + "Code By:" + colorama.Fore.WHITE + " RoxCoderSA")# Printing massage with call colors library
 	os.system('sleep 15')# Stopping the system 15 sec
 	os.system('clear')# Clear the terminal after 15 sec
 
@@ -78,7 +78,7 @@ def Debian():
 def Fedora(): # identify function 
 	os.system('sudo yum -y update') # check for update of yum
 	print("All update completed\n") # printing massage 
-	print (colorama.Fore.RED + "Code By:" + colorama.Fore.WHITE + " Roxcoder") # printing massage with call colors library
+	print (colorama.Fore.RED + "Code By:" + colorama.Fore.WHITE + " RoxCoderSA") # printing massage with call colors library
 	os.system('sleep 15') # stopping the system 15 sec
 	os.system('clear') # clear the terminal after 15 sec
 
@@ -104,7 +104,7 @@ def MacOS(): # identify function
 	os.system('sudo softwareupdate -l') # Check update for MacOS
 	os.system('sudo softwareupdate -i -a') # Install all update 
 	print('All update completed\n') # Printing massage
-	print(colorama.Fore.YELLOW + "Code By: " + colorama.Fore.WHITE + " Roxcoder") # printing massage with call colors library
+	print(colorama.Fore.YELLOW + "Code By: " + colorama.Fore.WHITE + " RoxCoderSA") # printing massage with call colors library
 	os.system('sleep 15') # stopping the system 15 sec
 	os.system('clear') # clear the terminal after 15 sec
 
@@ -112,7 +112,7 @@ def Arch(): # identify function
 	os.system("sudo pacman -Syu") # Check update for Arch
 	os.system("sudo pacman -Syy") # Upgrade system for Arch
 	print('All update completed\n') # Printing massage
-	print(colorama.Fore.BLUE + "Code By: " + colorama.Fore.WHITE + " Roxcoder") # printing massage with call colors library
+	print(colorama.Fore.BLUE + "Code By: " + colorama.Fore.WHITE + " RoxCoderSA") # printing massage with call colors library
 	os.system("sleep 15") # stopping the system 15 sec
 	os.system("clear") # clear the terminal after 15 sec
 
@@ -120,7 +120,7 @@ def Opensuse(): # identify function
 	os.system("sudo zypper refresh") # Refresh the repo
 	os.system("sudo zypper update")  # updating packge after refresh the repo
 	print('All update completed\n') # Printing massage
-	print(colorama.Fore.CYAN  + "Code By: " + colorama.Fore.WHITE + " Roxcoder") # printing massage with call colors library
+	print(colorama.Fore.CYAN  + "Code By: " + colorama.Fore.WHITE + " RoxCoderSA") # printing massage with call colors library
 	os.system("sleep 15") # stopping the system 15 sec
 	os.system("clear") # clear the terminal after 15 sec
 
